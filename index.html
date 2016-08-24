@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tuto Angular</title>
+	<meta charset="utf-8">
+</head>
+<body ng-app="myApp">
+
+	<div ng-show="loading">Chargement...</div>
+	<div ng-view></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.8/angular-route.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/services/post.js"></script>
+    <script src="js/controllers/comments.js"></script>
+    <script src="js/controllers/posts.js"></script>
+
+</body>
+</html>
+
+
+<!-- 1) FILTERS 
+		(ng-model)
+		filter:'...'
+		orderBy (+'...') + = crossant - = decroissant
+
+		$scope super Variable
+		$ng-init
+
+		2) MODULE
+
+		<script src="https://code.angularjs.org/1.5.8/angular-animate.min.js"></script>
+		var app = angular.module('myApp', ['ngAnimate']);
+
+		3) LES ROUTES
+
+		ngRoute
+
+ -->
